@@ -24,17 +24,24 @@ public class Loops {
       }
     }
 
-    for (int j = 1; j <= 4; j++) {
-    for (int k = 1; k <= j; k++) {
-    System.out.print(" * ");
-    }
-    System.out.println();
-    }
+    // for (int j = 1; j <= 4; j++) {
+    // for (int k = 1; k <= j; k++) {
+    // System.out.print(" * ");
+    // }
+    // System.out.println();
+    // }
 
-    int decimalValue = 97;
-    for (int i = 0; i <= 20; i++) {
-      char char_value = (char) (decimalValue + i);
-      System.out.print(char_value + " ");
+    // int decimalValue = 97;
+    // for (int i = 0; i <= 20; i++) {
+    // char char_value = (char) (decimalValue + i);
+    // System.out.print(char_value + " ");
+    // }
+
+    for (int i = 10; i >= 0; i--) {
+      for (int j = i; j >= 0; j--) {
+        System.out.print(j + " ");
+      }
+      System.out.println();
     }
   }
 }
